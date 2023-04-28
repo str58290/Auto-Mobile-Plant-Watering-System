@@ -21,8 +21,8 @@
 int error_number = 0; // 0: All good, 1: Cannot get time
 
 // Replace with your network credentials
-const char* ssid = "SOH-FAMILY-GUEST"; //Enter SSID
-const char* password = "s0H7f4miL0G@_u3*"; //Enter Password
+const char* ssid = "SSID"; //Enter SSID
+const char* password = "PW"; //Enter Password
 
 //Watering initializations:
 char s_currTime[20]; // This variable is to save the formatted string of current time that is to be printed out to LCD. It ensures that the things printed are of format: 00/00 00:00:00, with all the digits in place even if it were to just be a single digit: e.g. 01/02 instead of 1/2
@@ -58,11 +58,11 @@ char wantPrint_1[20]; // Things you want to print on row 1 of LCD screen
 char wantPrint_2[20]; // Things you want to print on row 2 of LCD screen
 
 // ************ ThingSpeak Credentials **********
-unsigned long readChannelID = 2119618; // enter your Channel ID
-char readAPIKey[] = "6IGVCIG1EHSL6Z3F"; // Change to channel read API key
-char mqttUserName[] = "GzUKGCQPAiAQEAgDDiIVGA8"; // Use given username
+unsigned long readChannelID = ; // enter your Channel ID
+char readAPIKey[] = "READ API KEY"; // Change to channel read API key
+char mqttUserName[] = "MQTT USERNAME"; // Use given username
 char* clientID = mqttUserName;
-char mqttPass[] = "PIloqIeasDTTDNmI8962yvLE"; // MQTT broker password
+char mqttPass[] = "MQTT PW"; // MQTT broker password
 const char *server = "mqtt3.thingspeak.com";
 // **********************************************
 
