@@ -5,4 +5,10 @@ It features the use of an ESP32 to automate the watering of plants in fixed inte
 
 <p>The ESP32 and Android app are conencted via ThingSpeak MQTT, and all communication is done securely, via TLS/SSL.</p>
 
-<p>Have a watch a the project video: <a href="https://youtube.com/shorts/qeQA9wZjar8?feature=share">Click here</a>
+<p>Have a watch a the project video: <a href="https://youtube.com/shorts/qeQA9wZjar8?feature=share">Click here</a></p>
+
+<h2> Project Schematics </h2>
+<img src="img/Project_V1_Schmetic_2.JPG"></img>
+<img src="img/Project_V1_Schmetic.JPG"></img>
+
+ 
